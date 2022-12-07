@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "byRt4bNH+DxkDr3LgxVfy3qu5S1MQGD4onWDM2OjYdpet/T8DOkYYx09sJ5Q7JBHSz6W7HHIXAJNH4XPEUxIZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Маргарита\\source\\repos\\lab7-master\\lab7-master\\bib\\bib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Маргарита\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.10\\microsoft.netcore.app.ref.6.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

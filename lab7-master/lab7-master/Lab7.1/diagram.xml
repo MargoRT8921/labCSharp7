@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diagram>
+  <abstract_class name="bib.Animal">
+    <Method>get_Country</Method>
+    <Method>set_Country</Method>
+    <Method>get_HideFromOtherAnimals</Method>
+    <Method>set_HideFromOtherAnimals</Method>
+    <Method>get_Name</Method>
+    <Method>set_Name</Method>
+    <Method>get_WhatAnimal</Method>
+    <Method>set_WhatAnimal</Method>
+    <Method>Deconstruct</Method>
+    <Method>SayHello</Method>
+    <Method>GetClassificationAnimal</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <Property>Country</Property>
+    <Property>HideFromOtherAnimals</Property>
+    <Property>Name</Property>
+    <Property>WhatAnimal</Property>
+    <Field>&lt;Country&gt;k__BackingField</Field>
+    <Field>&lt;HideFromOtherAnimals&gt;k__BackingField</Field>
+    <Field>&lt;Name&gt;k__BackingField</Field>
+    <Field>&lt;WhatAnimal&gt;k__BackingField</Field>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableContextAttribute</CustomAttribute>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableAttribute</CustomAttribute>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </abstract_class>
+  <child_class name="bib.Cow">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Lion">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Pig">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <enum name="bib.eClassificationAnimal">
+    <Field>value__</Field>
+    <Field>Herbivores</Field>
+    <Field>Carnivores</Field>
+    <Field>Omnivores</Field>
+  </enum>
+  <enum name="bib.eFavoriteFood">
+    <Field>value__</Field>
+    <Field>Meat</Field>
+    <Field>Plants</Field>
+    <Field>Everything</Field>
+  </enum>
+  <abstract_class name="bib.Animal">
+    <Method>get_Country</Method>
+    <Method>set_Country</Method>
+    <Method>get_HideFromOtherAnimals</Method>
+    <Method>set_HideFromOtherAnimals</Method>
+    <Method>get_Name</Method>
+    <Method>set_Name</Method>
+    <Method>get_WhatAnimal</Method>
+    <Method>set_WhatAnimal</Method>
+    <Method>Deconstruct</Method>
+    <Method>SayHello</Method>
+    <Method>GetClassificationAnimal</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <Property>Country</Property>
+    <Property>HideFromOtherAnimals</Property>
+    <Property>Name</Property>
+    <Property>WhatAnimal</Property>
+    <Field>&lt;Country&gt;k__BackingField</Field>
+    <Field>&lt;HideFromOtherAnimals&gt;k__BackingField</Field>
+    <Field>&lt;Name&gt;k__BackingField</Field>
+    <Field>&lt;WhatAnimal&gt;k__BackingField</Field>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableContextAttribute</CustomAttribute>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableAttribute</CustomAttribute>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </abstract_class>
+  <child_class name="bib.Cow">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Lion">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Pig">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <enum name="bib.eClassificationAnimal">
+    <Field>value__</Field>
+    <Field>Herbivores</Field>
+    <Field>Carnivores</Field>
+    <Field>Omnivores</Field>
+  </enum>
+  <enum name="bib.eFavoriteFood">
+    <Field>value__</Field>
+    <Field>Meat</Field>
+    <Field>Plants</Field>
+    <Field>Everything</Field>
+  </enum>
+  <abstract_class name="bib.Animal">
+    <Method>get_Country</Method>
+    <Method>set_Country</Method>
+    <Method>get_HideFromOtherAnimals</Method>
+    <Method>set_HideFromOtherAnimals</Method>
+    <Method>get_Name</Method>
+    <Method>set_Name</Method>
+    <Method>get_WhatAnimal</Method>
+    <Method>set_WhatAnimal</Method>
+    <Method>Deconstruct</Method>
+    <Method>SayHello</Method>
+    <Method>GetClassificationAnimal</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <Property>Country</Property>
+    <Property>HideFromOtherAnimals</Property>
+    <Property>Name</Property>
+    <Property>WhatAnimal</Property>
+    <Field>&lt;Country&gt;k__BackingField</Field>
+    <Field>&lt;HideFromOtherAnimals&gt;k__BackingField</Field>
+    <Field>&lt;Name&gt;k__BackingField</Field>
+    <Field>&lt;WhatAnimal&gt;k__BackingField</Field>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableContextAttribute</CustomAttribute>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableAttribute</CustomAttribute>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </abstract_class>
+  <child_class name="bib.Cow">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Lion">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Pig">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <enum name="bib.eClassificationAnimal">
+    <Field>value__</Field>
+    <Field>Herbivores</Field>
+    <Field>Carnivores</Field>
+    <Field>Omnivores</Field>
+  </enum>
+  <enum name="bib.eFavoriteFood">
+    <Field>value__</Field>
+    <Field>Meat</Field>
+    <Field>Plants</Field>
+    <Field>Everything</Field>
+  </enum>
+  <abstract_class name="bib.Animal">
+    <Method>get_Country</Method>
+    <Method>set_Country</Method>
+    <Method>get_HideFromOtherAnimals</Method>
+    <Method>set_HideFromOtherAnimals</Method>
+    <Method>get_Name</Method>
+    <Method>set_Name</Method>
+    <Method>get_WhatAnimal</Method>
+    <Method>set_WhatAnimal</Method>
+    <Method>Deconstruct</Method>
+    <Method>SayHello</Method>
+    <Method>GetClassificationAnimal</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <Property>Country</Property>
+    <Property>HideFromOtherAnimals</Property>
+    <Property>Name</Property>
+    <Property>WhatAnimal</Property>
+    <Field>&lt;Country&gt;k__BackingField</Field>
+    <Field>&lt;HideFromOtherAnimals&gt;k__BackingField</Field>
+    <Field>&lt;Name&gt;k__BackingField</Field>
+    <Field>&lt;WhatAnimal&gt;k__BackingField</Field>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableContextAttribute</CustomAttribute>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableAttribute</CustomAttribute>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </abstract_class>
+  <child_class name="bib.Cow">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Lion">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Pig">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <enum name="bib.eClassificationAnimal">
+    <Field>value__</Field>
+    <Field>Herbivores</Field>
+    <Field>Carnivores</Field>
+    <Field>Omnivores</Field>
+  </enum>
+  <enum name="bib.eFavoriteFood">
+    <Field>value__</Field>
+    <Field>Meat</Field>
+    <Field>Plants</Field>
+    <Field>Everything</Field>
+  </enum>
+  <abstract_class name="bib.Animal">
+    <Method>get_Country</Method>
+    <Method>set_Country</Method>
+    <Method>get_HideFromOtherAnimals</Method>
+    <Method>set_HideFromOtherAnimals</Method>
+    <Method>get_Name</Method>
+    <Method>set_Name</Method>
+    <Method>get_WhatAnimal</Method>
+    <Method>set_WhatAnimal</Method>
+    <Method>Deconstruct</Method>
+    <Method>SayHello</Method>
+    <Method>GetClassificationAnimal</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <Property>Country</Property>
+    <Property>HideFromOtherAnimals</Property>
+    <Property>Name</Property>
+    <Property>WhatAnimal</Property>
+    <Field>&lt;Country&gt;k__BackingField</Field>
+    <Field>&lt;HideFromOtherAnimals&gt;k__BackingField</Field>
+    <Field>&lt;Name&gt;k__BackingField</Field>
+    <Field>&lt;WhatAnimal&gt;k__BackingField</Field>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableContextAttribute</CustomAttribute>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableAttribute</CustomAttribute>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </abstract_class>
+  <child_class name="bib.Cow">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Lion">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Pig">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <enum name="bib.eClassificationAnimal">
+    <Field>value__</Field>
+    <Field>Herbivores</Field>
+    <Field>Carnivores</Field>
+    <Field>Omnivores</Field>
+  </enum>
+  <enum name="bib.eFavoriteFood">
+    <Field>value__</Field>
+    <Field>Meat</Field>
+    <Field>Plants</Field>
+    <Field>Everything</Field>
+  </enum>
+  <abstract_class name="bib.Animal">
+    <Method>get_Country</Method>
+    <Method>set_Country</Method>
+    <Method>get_HideFromOtherAnimals</Method>
+    <Method>set_HideFromOtherAnimals</Method>
+    <Method>get_Name</Method>
+    <Method>set_Name</Method>
+    <Method>get_WhatAnimal</Method>
+    <Method>set_WhatAnimal</Method>
+    <Method>Deconstruct</Method>
+    <Method>SayHello</Method>
+    <Method>GetClassificationAnimal</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <Property>Country</Property>
+    <Property>HideFromOtherAnimals</Property>
+    <Property>Name</Property>
+    <Property>WhatAnimal</Property>
+    <Field>&lt;Country&gt;k__BackingField</Field>
+    <Field>&lt;HideFromOtherAnimals&gt;k__BackingField</Field>
+    <Field>&lt;Name&gt;k__BackingField</Field>
+    <Field>&lt;WhatAnimal&gt;k__BackingField</Field>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableContextAttribute</CustomAttribute>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableAttribute</CustomAttribute>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </abstract_class>
+  <child_class name="bib.Cow">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Lion">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Pig">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <enum name="bib.eClassificationAnimal">
+    <Field>value__</Field>
+    <Field>Herbivores</Field>
+    <Field>Carnivores</Field>
+    <Field>Omnivores</Field>
+  </enum>
+  <enum name="bib.eFavoriteFood">
+    <Field>value__</Field>
+    <Field>Meat</Field>
+    <Field>Plants</Field>
+    <Field>Everything</Field>
+  </enum>
+  <abstract_class name="bib.Animal">
+    <Method>get_Country</Method>
+    <Method>set_Country</Method>
+    <Method>get_HideFromOtherAnimals</Method>
+    <Method>set_HideFromOtherAnimals</Method>
+    <Method>get_Name</Method>
+    <Method>set_Name</Method>
+    <Method>get_WhatAnimal</Method>
+    <Method>set_WhatAnimal</Method>
+    <Method>Deconstruct</Method>
+    <Method>SayHello</Method>
+    <Method>GetClassificationAnimal</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <Property>Country</Property>
+    <Property>HideFromOtherAnimals</Property>
+    <Property>Name</Property>
+    <Property>WhatAnimal</Property>
+    <Field>&lt;Country&gt;k__BackingField</Field>
+    <Field>&lt;HideFromOtherAnimals&gt;k__BackingField</Field>
+    <Field>&lt;Name&gt;k__BackingField</Field>
+    <Field>&lt;WhatAnimal&gt;k__BackingField</Field>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableContextAttribute</CustomAttribute>
+    <CustomAttribute>System.Runtime.CompilerServices.NullableAttribute</CustomAttribute>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </abstract_class>
+  <child_class name="bib.Cow">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Lion">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <child_class name="bib.Pig">
+    <Method>SayHello</Method>
+    <Method>GetFavoriteFood</Method>
+    <Constructor>.ctor</Constructor>
+    <CustomAttribute>bib.FreeCommentAttribute</CustomAttribute>
+  </child_class>
+  <enum name="bib.eClassificationAnimal">
+    <Field>value__</Field>
+    <Field>Herbivores</Field>
+    <Field>Carnivores</Field>
+    <Field>Omnivores</Field>
+  </enum>
+  <enum name="bib.eFavoriteFood">
+    <Field>value__</Field>
+    <Field>Meat</Field>
+    <Field>Plants</Field>
+    <Field>Everything</Field>
+  </enum>
+</diagram>
